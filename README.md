@@ -1,7 +1,7 @@
 
 # tf-aws-cognito-user-pool-domain
 
-Terraform module that creates Cognito User Pool Client resources in AWS.
+Terraform module that creates Cognito User Pool Domain resources in AWS.
 
 Important
   The following module is necessary for the Cognito User Pool Domain operation
