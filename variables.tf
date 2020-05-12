@@ -10,6 +10,6 @@ variable "user_pool_id" {
 
 variable "certificate_arn" {
   type        = "string"
-  description = "The AEN of an ISSUED ACM certificate in us-east-1 for a custom domain"
+  description = "The ARN of an ISSUED ACM certificate in us-east-1 for a custom domain"
   default     = ""
 }
