@@ -26,7 +26,7 @@ If you want to update README.md file, run that script while being in 'hooks' fol
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| certificate\_arn | The AEN of an ISSUED ACM certificate in us-east-1 for a custom domain | string | `""` | no |
+| certificate\_arn | The ARN of an ISSUED ACM certificate in us-east-1 for a custom domain | string | `""` | no |
 | domain | The domain string | string | n/a | yes |
 | user\_pool\_id | The user pool ID | string | n/a | yes |
 
