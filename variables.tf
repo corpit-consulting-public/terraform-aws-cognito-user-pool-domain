@@ -1,15 +1,16 @@
 variable "domain" {
-  type        = "string"
+  type        = string
   description = "The domain string"
 }
 
 variable "user_pool_id" {
-  type        = "string"
+  type        = string
   description = "The user pool ID"
 }
 
 variable "certificate_arn" {
-  type        = "string"
+  type        = string
   description = "The ARN of an ISSUED ACM certificate in us-east-1 for a custom domain"
   default     = ""
 }
+
