@@ -29,3 +29,11 @@ module "cognito-user-pool-domain" {
 ## README.md
 This README file was created runnnign generate-readme.sh placed insinde hooks directory.
 If you want to update README.md file, run that script while being in 'hooks' folder.
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|:----:|:-----:|:-----:|
+| domain | The domain string | string | n/a | yes |
+| user\_pool\_id | The user pool ID | string | n/a | yes |
+| certificate\_arn | The ARN of an ISSUED ACM certificate in us-east-1 for a custom domain | string | `""` | no |
+
